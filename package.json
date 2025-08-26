@@ -1,0 +1,31 @@
+{
+  "name": "complete-react-primitives",
+  "private": true,
+  "packageManager": "pnpm@9",
+  "version": "0.0.1",
+  "description": "Primitivas headless, ultra-ligeras y tipadas para React.",
+  "author": "Nacho Rodr\u00edguez Sanz <nachorsanz>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nachorsanz/complete-react-primitives"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "tsup": "^8.1.0",
+    "vitest": "^2.0.5",
+    "@testing-library/react": "^16.0.0",
+    "@types/react": "^18.3.3",
+    "@types/node": "^20.14.10",
+    "eslint": "^9.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
