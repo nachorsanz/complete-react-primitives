@@ -26,7 +26,7 @@ const TOAST_STYLES = {
     display: "flex",
     flexDirection: "column" as const,
   },
-  
+
   // Toast individual
   toast: {
     display: "flex",
@@ -52,7 +52,7 @@ const TOAST_STYLES = {
     transform: "translateX(100%)",
     opacity: 0,
   },
-  
+
   removing: {
     transform: "translateX(100%)",
     opacity: 0,
@@ -154,7 +154,7 @@ function ToastItem({ toast, onDismiss, config }: ToastItemProps) {
       const element = ref.current;
       element.style.transform = "translateX(100%)";
       element.style.opacity = "0";
-      
+
       requestAnimationFrame(() => {
         element.style.transform = "translateX(0)";
         element.style.opacity = "1";
@@ -208,17 +208,11 @@ function ToastItem({ toast, onDismiss, config }: ToastItemProps) {
   };
 
   return (
-    <div
-      ref={ref}
-      style={toastStyle}
-      role="alert"
-      aria-live="polite"
-      aria-atomic="true"
-    >
+    <div ref={ref} style={toastStyle} role="alert" aria-live="polite" aria-atomic="true">
       {icon && (
-        <span 
-          style={{ 
-            fontSize: "16px", 
+        <span
+          style={{
+            fontSize: "16px",
             flexShrink: 0,
             animation: toast.type === "loading" ? "spin 1s linear infinite" : undefined,
           }}
@@ -227,10 +221,8 @@ function ToastItem({ toast, onDismiss, config }: ToastItemProps) {
           {icon}
         </span>
       )}
-      
-      <div style={{ flex: 1, minWidth: 0 }}>
-        {toast.message}
-      </div>
+
+      <div style={{ flex: 1, minWidth: 0 }}>{toast.message}</div>
 
       {toast.action && (
         <button
@@ -270,11 +262,11 @@ function ToastItem({ toast, onDismiss, config }: ToastItemProps) {
 
 /**
  * Container que agrupa y posiciona los toasts
- * 
+ *
  * @example
  * ```tsx
  * import { ToastContainer } from '@complete/react-toast';
- * 
+ *
  * function App() {
  *   return (
  *     <div>
@@ -291,9 +283,7 @@ export function ToastContainer({ position, className }: ToastContainerProps) {
   const { toasts, config, api } = useToastContext();
 
   // Filtrar toasts por posición
-  const positionToasts = toasts.filter((toast) => 
-    position ? toast.position === position : true
-  );
+  const positionToasts = toasts.filter((toast) => (position ? toast.position === position : true));
 
   if (positionToasts.length === 0) {
     return null;
@@ -320,19 +310,10 @@ export function ToastContainer({ position, className }: ToastContainerProps) {
           }
         `}
       </style>
-      
-      <div 
-        style={containerStyle}
-        className={className}
-        aria-label={`Notificaciones ${containerPosition}`}
-      >
+
+      <div style={containerStyle} className={className} aria-label={`Notificaciones ${containerPosition}`}>
         {positionToasts.map((toast) => (
-          <ToastItem
-            key={toast.id}
-            toast={toast}
-            onDismiss={api.dismiss}
-            config={config}
-          />
+          <ToastItem key={toast.id} toast={toast} onDismiss={api.dismiss} config={config} />
         ))}
       </div>
     </>
@@ -342,11 +323,11 @@ export function ToastContainer({ position, className }: ToastContainerProps) {
 /**
  * Componente que renderiza automáticamente todos los containers necesarios
  * Detecta las posiciones usadas y crea containers para cada una
- * 
+ *
  * @example
  * ```tsx
  * import { ToastProvider, Toaster } from '@complete/react-toast';
- * 
+ *
  * function App() {
  *   return (
  *     <ToastProvider>
@@ -361,18 +342,12 @@ export function Toaster({ className }: { className?: string }) {
   const { toasts } = useToastContext();
 
   // Obtener todas las posiciones únicas
-  const positions = Array.from(
-    new Set(toasts.map((toast) => toast.position))
-  ) as ToastPosition[];
+  const positions = Array.from(new Set(toasts.map((toast) => toast.position))) as ToastPosition[];
 
   return (
     <>
       {positions.map((position) => (
-        <ToastContainer
-          key={position}
-          position={position}
-          className={className}
-        />
+        <ToastContainer key={position} position={position} className={className} />
       ))}
     </>
   );
