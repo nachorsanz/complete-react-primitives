@@ -1,10 +1,9 @@
 {
   "name": "complete-react-primitives",
-  "private": true,
   "packageManager": "pnpm@9",
   "version": "0.0.1",
   "description": "Primitivas headless, ultra-ligeras y tipadas para React.",
-  "author": "Nacho Rodr\u00edguez Sanz <nachorsanz>",
+  "author": "Nacho Rodríguez Sanz <nachorsanz>",
   "repository": {
     "type": "git",
     "url": "https://github.com/nachorsanz/complete-react-primitives"
