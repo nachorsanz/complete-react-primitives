@@ -112,7 +112,7 @@ function shallowEq(a: any, b: any): boolean {
  *
  * @example
  * ```tsx
- * import { useUrlState } from '@complete/react-url-state';
+ * import { useUrlState } from 'complete-react-url-state';
  *
  * function SearchPage() {
  *   const [filters, setFilters] = useUrlState({

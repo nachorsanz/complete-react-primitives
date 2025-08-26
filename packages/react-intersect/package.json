@@ -1,5 +1,5 @@
 {
-  "name": "@complete/react-intersect",
+  "name": "complete-react-intersect",
   "version": "0.0.1",
   "description": "Hook IntersectionObserver simple y SSR-safe para React",
   "license": "MIT",

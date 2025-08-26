@@ -64,7 +64,7 @@ export interface ToastProviderProps {
  *
  * @example
  * ```tsx
- * import { ToastProvider } from '@complete/react-toast';
+ * import { ToastProvider } from 'complete-react-toast';
  *
  * function App() {
  *   return (

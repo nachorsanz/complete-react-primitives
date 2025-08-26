@@ -265,7 +265,7 @@ function ToastItem({ toast, onDismiss, config }: ToastItemProps) {
  *
  * @example
  * ```tsx
- * import { ToastContainer } from '@complete/react-toast';
+ * import { ToastContainer } from 'complete-react-toast';
  *
  * function App() {
  *   return (
@@ -326,7 +326,7 @@ export function ToastContainer({ position, className }: ToastContainerProps) {
  *
  * @example
  * ```tsx
- * import { ToastProvider, Toaster } from '@complete/react-toast';
+ * import { ToastProvider, Toaster } from 'complete-react-toast';
  *
  * function App() {
  *   return (

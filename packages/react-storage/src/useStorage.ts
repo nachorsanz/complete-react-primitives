@@ -80,7 +80,7 @@ function now(): number {
  *
  * @example
  * ```tsx
- * import { useStorage } from '@complete/react-storage';
+ * import { useStorage } from 'complete-react-storage';
  *
  * function MyComponent() {
  *   const [count, setCount, removeCount] = useStorage('counter', 0, {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useToast, useToastError, useToastWithDefaults } from "@complete/react-toast";
+import { useToast, useToastError, useToastWithDefaults } from "complete-react-toast";
 
 function App() {
   const toast = useToast();
@@ -81,7 +81,7 @@ function App() {
         margin: "0 auto",
       }}
     >
-      <h1>🍞 Demo @complete/react-toast</h1>
+      <h1>🍞 Demo complete-react-toast</h1>
       <p>Librería completa de toasts para React con API funcional y declarativa.</p>
 
       <div style={{ display: "grid", gap: "20px", marginTop: "40px" }}>
@@ -205,7 +205,7 @@ function App() {
           }}
         >
           <h3>ℹ️ Información del demo</h3>
-          <p>Este demo muestra las principales características del package @complete/react-toast:</p>
+          <p>Este demo muestra las principales características del package complete-react-toast:</p>
           <ul>
             <li>✅ API funcional con useToast()</li>
             <li>🎨 Múltiples posiciones y variantes</li>

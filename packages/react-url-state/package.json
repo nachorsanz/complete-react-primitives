@@ -1,5 +1,5 @@
 {
-  "name": "@complete/react-url-state",
+  "name": "complete-react-url-state",
   "version": "0.0.1",
   "description": "Hook para sincronizar estado con la URL (query string) en React",
   "license": "MIT",

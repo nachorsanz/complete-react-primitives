@@ -34,7 +34,7 @@ const isBrowser = (): boolean => typeof window !== "undefined";
  *
  * @example
  * ```tsx
- * import { useInView } from '@complete/react-intersect';
+ * import { useInView } from 'complete-react-intersect';
  *
  * function MyComponent() {
  *   const [ref, inView, entry] = useInView({

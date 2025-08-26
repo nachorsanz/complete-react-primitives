@@ -1,17 +1,17 @@
-# @complete/react-toast
+# complete-react-toast
 
-[![npm](https://img.shields.io/npm/v/@complete/react-toast?logo=npm)](https://www.npmjs.com/package/@complete/react-toast) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/%40complete%2Freact-toast)](https://bundlephobia.com/package/%40complete%2Freact-toast) ![types](https://img.shields.io/badge/types-included-blue) ![tree-shaking](https://img.shields.io/badge/tree--shaking-true-success)
+[![npm](https://img.shields.io/npm/v/complete-react-toast?logo=npm)](https://www.npmjs.com/package/complete-react-toast) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/complete-react-toast)](https://bundlephobia.com/package/complete-react-toast) ![types](https://img.shields.io/badge/types-included-blue) ![tree-shaking](https://img.shields.io/badge/tree--shaking-true-success)
 
 Sistema de **toasts dinámico y versátil** para React. API funcional y declarativa, totalmente accesible y personalizable.
 
 ## 🚀 Instalación
 
 ```bash
-npm install @complete/react-toast
+npm install complete-react-toast
 # o
-pnpm add @complete/react-toast
+pnpm add complete-react-toast
 # o
-yarn add @complete/react-toast
+yarn add complete-react-toast
 ```
 
 ## 📖 Uso básico
@@ -19,7 +19,7 @@ yarn add @complete/react-toast
 ### 1. Configurar el Provider
 
 ```tsx
-import { ToastProvider, Toaster } from '@complete/react-toast';
+import { ToastProvider, Toaster } from 'complete-react-toast';
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
 ### 2. Usar toasts en componentes
 
 ```tsx
-import { useToast } from '@complete/react-toast';
+import { useToast } from 'complete-react-toast';
 
 function MyComponent() {
   const toast = useToast();
@@ -124,7 +124,7 @@ type ToastVariant = "filled" | "outlined" | "minimal";
 ### Manejo de errores automático
 
 ```tsx
-import { useToast, useToastError } from '@complete/react-toast';
+import { useToast, useToastError } from 'complete-react-toast';
 
 function ApiComponent() {
   const toast = useToast();
@@ -336,15 +336,15 @@ toast.error('Error', {
 
 ## 🤝 Comparación con alternativas
 
-| Característica       | @complete/react-toast | react-hot-toast | react-toastify |
-| -------------------- | --------------------- | --------------- | -------------- |
-| Tamaño               | ~3KB                  | ~4KB            | ~8KB           |
-| TypeScript nativo    | ✅                    | ✅              | ⚠️             |
-| API funcional        | ✅                    | ✅              | ⚠️             |
-| Sin dependencias CSS | ✅                    | ❌              | ❌             |
-| Múltiples posiciones | ✅                    | ❌              | ✅             |
-| Wrapper de errores   | ✅                    | ❌              | ❌             |
-| Configuración global | ✅                    | ⚠️              | ✅             |
+| Característica       | complete-react-toast | react-hot-toast | react-toastify |
+| -------------------- | -------------------- | --------------- | -------------- |
+| Tamaño               | ~3KB                 | ~4KB            | ~8KB           |
+| TypeScript nativo    | ✅                   | ✅              | ⚠️             |
+| API funcional        | ✅                   | ✅              | ⚠️             |
+| Sin dependencias CSS | ✅                   | ❌              | ❌             |
+| Múltiples posiciones | ✅                   | ❌              | ✅             |
+| Wrapper de errores   | ✅                   | ❌              | ❌             |
+| Configuración global | ✅                   | ⚠️              | ✅             |
 
 ## 💡 Casos de uso
 

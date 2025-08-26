@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { ToastProvider, Toaster } from "@complete/react-toast";
+import { ToastProvider, Toaster } from "complete-react-toast";
 import App from "./App.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

@@ -1,5 +1,5 @@
 {
-  "name": "@complete/react-toast",
+  "name": "complete-react-toast",
   "version": "0.0.1",
   "description": "Hook y componentes de Toast dinámicos, versátiles y accesibles para React",
   "license": "MIT",

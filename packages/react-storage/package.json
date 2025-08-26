@@ -1,5 +1,5 @@
 {
-  "name": "@complete/react-storage",
+  "name": "complete-react-storage",
   "version": "0.0.1",
   "description": "Hook para sincronizar estado con localStorage/sessionStorage con TTL y cross-tab",
   "license": "MIT",

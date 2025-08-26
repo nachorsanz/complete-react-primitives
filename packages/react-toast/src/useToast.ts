@@ -10,7 +10,7 @@ import { ToastAPI, ToastOptions } from "./types";
  *
  * @example
  * ```tsx
- * import { useToast } from '@complete/react-toast';
+ * import { useToast } from 'complete-react-toast';
  *
  * function MyComponent() {
  *   const toast = useToast();
@@ -65,7 +65,7 @@ export function useToast(): ToastAPI {
  *
  * @example
  * ```tsx
- * import { useToast, withToastError } from '@complete/react-toast';
+ * import { useToast, withToastError } from 'complete-react-toast';
  *
  * function ApiComponent() {
  *   const toast = useToast();

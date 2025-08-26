@@ -1,23 +1,23 @@
-# @complete/react-intersect
+# complete-react-intersect
 
-[![npm](https://img.shields.io/npm/v/@complete/react-intersect?logo=npm)](https://www.npmjs.com/package/@complete/react-intersect) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/%40complete%2Freact-intersect)](https://bundlephobia.com/package/%40complete%2Freact-intersect) ![types](https://img.shields.io/badge/types-included-blue) ![tree-shaking](https://img.shields.io/badge/tree--shaking-true-success)
+[![npm](https://img.shields.io/npm/v/complete-react-intersect?logo=npm)](https://www.npmjs.com/package/complete-react-intersect) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/complete-react-intersect)](https://bundlephobia.com/package/complete-react-intersect) ![types](https://img.shields.io/badge/types-included-blue) ![tree-shaking](https://img.shields.io/badge/tree--shaking-true-success)
 
 Hook `IntersectionObserver` minimalista para saber si un elemento está **en viewport**.
 
 ## 🚀 Instalación
 
 ```bash
-npm install @complete/react-intersect
+npm install complete-react-intersect
 # o
-pnpm add @complete/react-intersect
+pnpm add complete-react-intersect
 # o
-yarn add @complete/react-intersect
+yarn add complete-react-intersect
 ```
 
 ## 📖 Uso básico
 
 ```tsx
-import { useInView } from '@complete/react-intersect';
+import { useInView } from 'complete-react-intersect';
 
 function MyComponent() {
   const [ref, inView, entry] = useInView();

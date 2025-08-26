@@ -1,23 +1,23 @@
-# @complete/react-storage
+# complete-react-storage
 
-[![npm](https://img.shields.io/npm/v/@complete/react-storage?logo=npm)](https://www.npmjs.com/package/@complete/react-storage) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/%40complete%2Freact-storage)](https://bundlephobia.com/package/%40complete%2Freact-storage) ![types](https://img.shields.io/badge/types-included-blue) ![tree-shaking](https://img.shields.io/badge/tree--shaking-true-success)
+[![npm](https://img.shields.io/npm/v/complete-react-storage?logo=npm)](https://www.npmjs.com/package/complete-react-storage) [![bundlephobia](https://img.shields.io/bundlephobia/minzip/complete-react-storage)](https://bundlephobia.com/package/complete-react-storage) ![types](https://img.shields.io/badge/types-included-blue) ![tree-shaking](https://img.shields.io/badge/tree--shaking-true-success)
 
 Hook para **sincronizar estado con localStorage / sessionStorage** (TTL, cross‑tab).
 
 ## 🚀 Instalación
 
 ```bash
-npm install @complete/react-storage
+npm install complete-react-storage
 # o
-pnpm add @complete/react-storage
+pnpm add complete-react-storage
 # o
-yarn add @complete/react-storage
+yarn add complete-react-storage
 ```
 
 ## 📖 Uso básico
 
 ```tsx
-import { useStorage } from '@complete/react-storage';
+import { useStorage } from 'complete-react-storage';
 
 function MyComponent() {
   const [count, setCount, removeCount] = useStorage('counter', 0);
