@@ -115,3 +115,8 @@ const [ref, inView] = useInView({
 - React ≥18
 - Navegadores modernos con IntersectionObserver
 - Fallback automático para navegadores sin soporte
+
+## 🔗 Recursos adicionales
+
+- 🌐 **Web oficial**: [complete-react-tools.vercel.app](https://complete-react-tools.vercel.app/) - Documentación completa y demos en vivo
+- 📚 **Ejemplos**: Más ejemplos y casos de uso en la web oficial

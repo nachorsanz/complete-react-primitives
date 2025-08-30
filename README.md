@@ -1,6 +1,6 @@
-# Complete React Primitives
+# Complete React tools
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/nachorsanz/complete-react-primitives/ci.yml?branch=main&logo=github)](https://github.com/nachorsanz/complete-react-primitives/actions/workflows/ci.yml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/nachorsanz/complete-react-tools/ci.yml?branch=main&logo=github)](https://github.com/nachorsanz/complete-react-tools/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![types](https://img.shields.io/badge/types-included-blue)
 ![tree-shaking](https://img.shields.io/badge/tree--shaking-true-success)
@@ -142,7 +142,7 @@ function MyComponent() {
 }
 ```
 
-## 🎯 ¿Por qué Complete React Primitives?
+## 🎯 ¿Por qué Complete React tools?
 
 ### 📊 Comparación con alternativas
 
@@ -203,8 +203,9 @@ demos/                   # Ejemplos de uso
 
 - 📚 **Documentación completa**: Cada package incluye README detallado
 - 🎮 **Demos interactivos**: Ejemplos funcionando en `/demos`
-- 🐛 **Issues**: [GitHub Issues](https://github.com/nachorsanz/complete-react-primitives/issues)
-- 💬 **Discusiones**: [GitHub Discussions](https://github.com/nachorsanz/complete-react-primitives/discussions)
+- 🌐 **Web oficial**: [complete-react-tools.vercel.app](https://complete-react-tools.vercel.app/) - Documentación completa y demos en vivo
+- 🐛 **Issues**: [GitHub Issues](https://github.com/nachorsanz/complete-react-tools/issues)
+- 💬 **Discusiones**: [GitHub Discussions](https://github.com/nachorsanz/complete-react-tools/discussions)
 
 ## 🤝 Contribuir
 

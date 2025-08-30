@@ -1,6 +1,6 @@
 {
   "name": "complete-react-toast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hook y componentes de Toast dinámicos, versátiles y accesibles para React",
   "license": "MIT",
   "author": "Nacho Rodríguez Sanz <nachorsanz>",
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nachorsanz/complete-react-primitives"
+    "url": "https://github.com/nachorsanz/complete-react-tools"
   }
 }

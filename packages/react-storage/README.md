@@ -158,3 +158,8 @@ const [cache, setCache, clearCache] = useStorage('api-cache', {}, {
 - 🎨 **Temas**: Dark/light mode sincronizado
 - 📝 **Formularios**: Guardar borrador automáticamente
 - 🛒 **Carrito**: E-commerce state persistence
+
+## 🔗 Recursos adicionales
+
+- 🌐 **Web oficial**: [complete-react-tools.vercel.app](https://complete-react-tools.vercel.app/) - Documentación completa y demos en vivo
+- 📚 **Ejemplos**: Más ejemplos y casos de uso en la web oficial

@@ -354,3 +354,8 @@ toast.error('Error', {
 - 🔄 **Loading**: Estados de carga y progreso
 - 🎯 **Onboarding**: Guías y tips contextuales
 - 📱 **Mobile-first**: Notificaciones responsivas
+
+## 🔗 Recursos adicionales
+
+- 🌐 **Web oficial**: [complete-react-tools.vercel.app](https://complete-react-tools.vercel.app/) - Documentación completa y demos en vivo
+- 📚 **Ejemplos**: Más ejemplos y casos de uso en la web oficial
